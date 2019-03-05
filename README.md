@@ -16,4 +16,10 @@ Xcode错误记录及解决办法
 1. Xcode->Targets->Build->更新下build版本号
 2. Xcode->Edit Scheme->取消勾选Debug executable
 3. 将钥匙串中的证书设置为`有效`而非`始终信任`
-4. 重启手机(🤦‍♀️)
+4. 重启手机(🤦‍♀️) 
+
+# The executable was signed with invalid entitlements.
+
+* 重启xcode 
+* 重启电脑
+* 证书从自动切手动来回倒腾
