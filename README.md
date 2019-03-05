@@ -23,3 +23,8 @@ Xcode错误记录及解决办法
 * 重启xcode 
 * 重启电脑
 * 证书从自动切手动来回倒腾
+
+
+# Xcode 10: A valid provisioning profile for this executable was not found
+* Xcode->File->Projects Setting->Build System->设置成Legacy Build System
+
