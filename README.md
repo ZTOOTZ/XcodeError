@@ -3,14 +3,15 @@ Xcode错误记录及解决办法
 
 # You don’t have permission
 #### 方法一
-* 将info.plist的文件中的Executable.file中的文件修改为:$(PRODUCT_NAME) 改完后记得clear下
+* Xcode->File->Projects Setting->Build System->设置成Legacy Build System  (推荐)
+
 
 #### 方法二
 * 清除DeviceData 并clean工程
 
 
 #### 方法三
-* Xcode->File->Projects Setting->Build System->设置成Legacy Build System
+* 将info.plist的文件中的Executable.file中的文件修改为:$(PRODUCT_NAME) 改完后记得clear下
 
 # has denied the launch request
 1. Xcode->Targets->Build->更新下build版本号
